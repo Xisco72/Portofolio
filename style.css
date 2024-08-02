@@ -72,7 +72,7 @@ nav a:not(:last-child) {
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 8em;
 }
 
 h2 {
@@ -216,5 +216,35 @@ h2 {
     .grid-container {
         gap: 20px;
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 5em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    .info p {
+        font-size: 1.25em;
+    }
+    .info {
+        padding: 40px;
+    }
+    .container video, .container img {
+        object-fit: cover;
+        display: block;
+        width: 90vw;
+        box-shadow: 0px 0px 20px black;
+    }
+    .payment {
+        padding: 20px !important;
+    }
+    .payment ul {
+        padding: 0;
+    }
+    .payment li {
+        list-style: none;
     }
 }
