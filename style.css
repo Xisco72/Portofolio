@@ -230,7 +230,7 @@ h2 {
         font-size: 1.25em;
     }
     .info {
-        padding: 40px;
+        padding: 35px;
     }
     .container video, .container img {
         object-fit: cover;
@@ -239,7 +239,7 @@ h2 {
         box-shadow: 0px 0px 20px black;
     }
     .payment {
-        padding: 20px !important;
+        padding: 35px !important;
     }
     .payment ul {
         padding: 0;
