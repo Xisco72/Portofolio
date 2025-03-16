@@ -6,42 +6,45 @@
     <meta http-equiv='cache-control' content='no-cache'> 
     <meta http-equiv='expires' content='0'> 
     <meta http-equiv='pragma' content='no-cache'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
 <body>
     <div class="inicio">
         <nav>
-            <a href="#about" class="nav-button">ABOUT ME</a>
-            <a href="#what-can-i-do" class="nav-button">WHAT CAN I DO</a>
-            <a href="#previous-work" class="nav-button">PREVIOUS WORK</a>
+            <i class="fa-solid fa-bars"></i>
+            <div class="dropdown">
+                <a href="#about" class="nav-button">ABOUT ME</a>
+                <a href="#what-can-i-do" class="nav-button">WHAT CAN I DO</a>
+                <a href="#previous-work" class="nav-button">PREVIOUS WORK</a>
+            </div>
         </nav>
         <div class="name">
             <h1>Xisco72</h1>
-            <p>Roblox Developer</p><br>
-            <a href="https://discord.gg/bvGUpW8DtS">CONTACT</a>
+            <p>Advanced Lua Scripter</p><br>
+            <a href="https://discord.gg/EBsTzhNM6p">CONTACT</a>
         </div>
     </div>
 
     <div id="about" class="about info">
         <h2>ABOUT ME</h2><br><br>
-        <p>I’m a scripter with a passion for clean, efficient, and straightforward code. I consider myself to be highly organized and professional in my approach. I've been coding for 2 years and I’ve had the opportunity to work on various games. I usually find and get what I want and I'm also good in bug fixing.</p><br><br>
-        <p style="font-size: 18px;">My time zone is CET (Central European Time)</p>
+        <p>I’m a scripter with a passion for clean, efficient, and straightforward code. I consider myself to be highly organized and professional. I've been coding for 3 years and I’ve had the opportunity to work for various games and commissions. All that with success and customer satisfaction. Looking for a experienced and hard working scripter? You found it.</p><br><br>
+        <p style="font-size: 1.1em;">My time zone is GMT +1</p>
     </div>
 
     <div id="what-can-i-do" class="what-can-i-do info">
         <h2>WHAT CAN I DO</h2><br><br>
         <ul>
-            <li>UI scripting</li>
-            <li>Animations/Sounds/VFX scripting</li>
-            <li>Datastore system</li>
-            <li>Combat system</li>
-            <li>Character stats system</li>
-            <li>Custom inventory system</li>
-            <li>Character creation/selection</li>
-            <li>Object pick up and place system</li><br>
-        </ul>
-        <p>All with full mobile and tablet compatibility and much more!</p>
+            <li>Character Abilities&nbsp<i>(with animations, VFX & SFX)</i></li>
+            <li>Character Creation & Customization Systems</li>
+            <li>Datastore Systems&nbsp<i>(coins, user data, storage...)</i></li>
+            <li>Custom Inventory System</li>
+            <li>Object Pick Up and Place System</li>
+            <li>UI Scripting</li>
+            <li>Almost any system you can imagine</li>
+        </ul><br>
+        <p style="font-size: 1.1em;">All with full mobile and tablet compatibility.</p>
     </div>
     
     <div id="previous-work" class="previous-work">
@@ -100,12 +103,28 @@
     <div id="payment" class="payment info" style="padding: 4vw 8vw;">
         <h2 style="text-align: center !important;">PAYMENT AND RATES</h2><br><br>
         <ul>
-            <li><b>Robux:</b> I will only accept if it's 5k or higher. You must always cover taxes if payed throught gamepass.</li><br>
-            <li><b>PayPal:</b> prices will be discussed in euros (€), you must always cover PayPal taxes. I usually get paid by script, but I make discounts if it's a pack. The price will depend on the complexity of the script.</li>
-            <br>
-            <p>Feel free to contact me in Discord DMs if you have any question.</p>
+            <li><b>Robux:</b> starting at 1,500 R$. You must always cover taxes if payed throught gamepass and wait 2 weeks if payed throught funds. Accepting gift cards.</li><br>
+            <li><b>PayPal:</b> starting at 10$. You must always pay throught the "family and friends" option.</li><br>
+            <p>Payment will be discussed in DMS. May be charging up front for long commissions, to prevent time wasters. Doing discounts if you order multiple stuff.</p>
         </ul>
     </div>
 </div>
+<script>
+    const navbar = document.getElementsByTagName("nav")[0];     // la navbar
+    const barsIcon = document.getElementsByClassName("fa-solid fa-bars")[0]; // el icono de barras
+    const dropdown = document.getElementsByClassName("dropdown")[0];  // el menú desplegable
+
+    navbar.addEventListener("click", () => {
+        const barsVisible = window.getComputedStyle(barsIcon).display !== "none";
+        if (barsVisible) {
+            const dropdownDisplay = window.getComputedStyle(dropdown).display;
+            if (dropdownDisplay === "none") {
+                dropdown.style.display = "flex";  // O 'block' si prefieres
+            } else {
+                dropdown.style.display = "none";
+            }
+        }
+    });
+</script>
 </body>
 </html>
