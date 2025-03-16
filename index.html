@@ -110,10 +110,9 @@
     </div>
 </div>
 <script>
-    const navbar = document.getElementsByTagName("nav")[0];     // la navbar
-    const barsIcon = document.getElementsByClassName("fa-solid fa-bars")[0]; // el icono de barras
-    const dropdown = document.getElementsByClassName("dropdown")[0];  // el menú desplegable
-
+    const navbar = document.getElementsByTagName("nav")[0];
+    const barsIcon = document.getElementsByClassName("fa-solid fa-bars")[0];
+    const dropdown = document.getElementsByClassName("dropdown")[0];
     navbar.addEventListener("click", () => {
         const barsVisible = window.getComputedStyle(barsIcon).display !== "none";
         if (barsVisible) {

@@ -37,6 +37,7 @@ nav {
     width: 100%;
     z-index: 1;
     display: flex;
+    padding: 30px;
     justify-content: center;
     align-items: center;
 }
@@ -240,6 +241,7 @@ video {
         flex-direction: column;
     }
     nav {
+        padding: 5px;
         background-color: rgb(180, 180, 180);
     }
     nav a{
