@@ -7,8 +7,12 @@ const container = document.getElementsByClassName("grid-container")[0];
 
 const videos = [
     {
+        Link : "https://streamable.com/e/jpcdxv",
+        Description: "(COMMISSION) - Guess the Emoji."
+    },
+    {
         Link : "https://streamable.com/e/qb2uqt?",
-        Description: "(COMMISSION) - Dominoes Game + Party System"
+        Description: "(COMMISSION) - Dominoes Minigame."
     },
     {
         Link : "https://streamable.com/e/o8muky?",
