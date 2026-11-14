@@ -7,35 +7,35 @@ const container = document.getElementsByClassName("grid-container")[0];
 
 const videos = [
     {
-        Link : "https://streamable.com/e/jpcdxv",
+        Link : "https://youtu.be/embed/Hhcvl1iYpJ8",
         Description: "(COMMISSION) - Guess the Emoji."
     },
     {
-        Link : "https://streamable.com/e/qb2uqt?",
+        Link : "https://youtube.com/embed/mpheqZXlf04",
         Description: "(COMMISSION) - Dominoes Minigame."
     },
     {
-        Link : "https://streamable.com/e/o8muky?",
+        Link : "https://youtube.com/embed/_uzdSPt2VqQ",
         Description : "(COMMISSION) - Character Slots + Customization Menus + Shop and Economy Systems. DataStore included."
     },
     {
-        Link : "https://streamable.com/e/m85pjl?",
+        Link : "https://youtube.com/embed/ahZmYymrN8o",
         Description : "(COMMISSION) - Supermarket System with DataStore."
     },
     {
-        Link: "https://streamable.com/e/jugb87?",
+        Link : "https://youtube.com/embed/L8UcRXsR7Cw",
         Description: "(COMMISSION) - Kahhori abilities based off Marvel universe."
     },
     {
-        Link: "https://streamable.com/e/9nr3ud?",
+        Link : "https://youtube.com/embed/i9xruTtD2rA",
         Description: "More Marvel abilities + Light That Burns the Sky (Pokémon)."
     },
     {
-        Link : "https://streamable.com/e/gzmies?",
+        Link : "https://youtube.com/embed/eXSpajwT3SY",
         Description : "Abilities based off Charmed universe."
     },
     {
-        Link : "https://streamable.com/e/lazunl?",
+        Link : "https://youtube.com/embed/Hhcvl1iYpJ8",
         Description : "Storm abilities based off Marvel universe."
     },
 ];
